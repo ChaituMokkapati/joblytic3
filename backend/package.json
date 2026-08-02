@@ -1,0 +1,29 @@
+{
+  "name": "amb-saas-job-portal-backend",
+  "version": "1.0.0",
+  "description": "Node.js + Express backend for AMB SaaS Job Portal",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "postinstall": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.1",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^4.6.0",
+    "node-fetch": "^2.7.0",
+    "openai": "^7.3.0",
+    "pdf-parse": "^2.4.5",
+    "playwright": "^1.62.1",
+    "resend": "^6.18.1",
+    "twilio": "^6.0.2"
+  }
+}
